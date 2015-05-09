@@ -1,0 +1,23 @@
+#container{
+    width: 960px;
+    margin: auto;
+}
+.field{
+    margin: 15px;
+}
+.field input[type='text']{
+    width: 200px;
+}
+form label{
+    display: block;
+}
+div.likes label input{
+    margin: 5px 15px;
+}
+
+div.gender label:hover, div.likes label:hover{
+  background: #eee;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
