@@ -1,18 +1,19 @@
 #container{
-    width: 960px;
-    margin: auto;
+  width: 960px;
+  margin: auto;
 }
 .field{
-    margin: 15px;
+  min-height: 35px;
 }
 .field input[type='text']{
-    width: 200px;
+  width: 200px;
 }
-form label{
-    display: block;
+div.field label{
+  width: 200px;
 }
+
 div.likes label input{
-    margin: 5px 15px;
+  margin: 5px;
 }
 
 div.gender label:hover, div.likes label:hover{
@@ -21,3 +22,12 @@ div.gender label:hover, div.likes label:hover{
   cursor: pointer;
 }
 
+.field .label{
+  width: 30%;
+  float: left;
+}
+
+.field .input{
+  width: 70%;
+  float: left;
+}
